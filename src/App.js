@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Card, Image } from "semantic-ui-react";
 import "./App.css";
+import flynnRider from "./flynn.png";
 
 const Options = () => {
   return [
@@ -47,16 +48,19 @@ class App extends React.Component {
       cards.push(<AppCard key={index} name={value} color={color} />);
     }
     return (
-      <div className="App">
-        <Card.Group>{cards}</Card.Group>
-        <Button
-          fluid
-          className="AppButton"
-          color="olive"
-          onClick={this.handleClick}
-        >
-          Let's have fun!
-        </Button>
+      <div>
+        <div className="App">
+          <Card.Group>{cards}</Card.Group>
+          <Button
+            fluid
+            className="AppButton"
+            color="olive"
+            onClick={this.handleClick}
+          >
+            Let's have fun!
+          </Button>
+        </div>
+        <img src={flynnRider} className="flynn" />
       </div>
     );
   }

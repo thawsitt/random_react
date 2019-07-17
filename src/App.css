@@ -17,3 +17,12 @@
   padding: 20px;
   margin-top: 20px;
 }
+
+.flynn {
+  margin-left: 15px;
+  position: fixed;
+  bottom: 0px;
+  max-width: 10%;
+  height: auto;
+  z-index: 10;
+}
