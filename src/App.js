@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Card, Image } from "semantic-ui-react";
 import "./App.css";
 import flynnRider from "./flynn.png";
+import rapunzel from "./love.png";
 
 const Options = () => {
   return [
@@ -60,6 +61,7 @@ class App extends React.Component {
             Let's have fun!
           </Button>
         </div>
+        <img src={rapunzel} className="rapunzel" />
         <img src={flynnRider} className="flynn" />
       </div>
     );
