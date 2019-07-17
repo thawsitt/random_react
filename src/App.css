@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  padding: 5% 35%;
+}
+
+.ui.button.AppButton {
+  padding: 20px;
+  margin-top: 20px;
+}
